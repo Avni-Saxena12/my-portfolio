@@ -1,0 +1,92 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.glow {
+    font-size: 2em;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0f;
+    text-shadow: 0 0 5px #f0f, 0 0 10px #f0f;
+}
+
+.neon-text {
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.btn {
+    background-color: #0ff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #f0f;
+    color: #fff;
+    box-shadow: 0 0 5px #f0f, 0 0 10px #f0f;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    background: #111;
+    color: #0ff;
+    border: none;
+    border-bottom: 2px solid #0ff;
+    outline: none;
+}
+
+form button {
+    background: #0ff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #f0f;
+    color: #fff;
+    box-shadow: 0 0 5px #f0f, 0 0 10px #f0f;
+}
